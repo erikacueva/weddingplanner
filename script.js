@@ -1,5 +1,3 @@
-$(function(){
-    $('#dp2').fdatepicker({
-          closeButton: true
-      });
-  });
+$("#dp2").on("click", function () {
+  console.log("click test");
+});
