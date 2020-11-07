@@ -33,7 +33,6 @@ td {
   font-size: 0.8rem;
   font-weight: bold;
   line-height: 1.4;
-  border-radius: 0.2rem;
   transition: opacity 0.3s ease;
   color: black;
 }
@@ -76,3 +75,6 @@ h2 {
   text-align: center;
 }
 
+.hide{
+  display: none;
+}
