@@ -4,22 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/foundation.css" />
+
     <link rel="stylesheet" href="style.css" />
 
     <title>Wedding Planner</title>
   </head>
   <body>
-    <h1>Wedding Schedule</h1>
-    <!-- Date picker -->
-    <h1>
-      <input
-        type="text"
-        class="span2"
-        value="02/16/12"
-        data-date-format="mm/dd/yy"
-        id="dp2"
-      />
-    </h1>
+    <table>
+      <tr>
+        <td>
+          <h1>Wedding Schedule</h1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Erika and Nathan</h2>
+        </td>
+      </tr>
+    </table>
+
+    <!--Date-->
+    <table id="wedding-info-table">
+      <tr>
+        <td colspan="2"></td>
+        <td colspan="2">
+          <div class="input-group">
+            <input class="input-group-field" type="text" placeholder="Date" />
+            <div class="input-group-button">
+              <input type="submit" class="button tiny" value="Send" />
+            </div>
+          </div>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+
+      <!-- Address Forms -->
+      <tr>
+        <td colspan="2">
+          <div class="input-group">
+            <input
+              class="input-group-field"
+              type="text"
+              placeholder="Address1"
+            />
+            <div class="input-group-button">
+              <input type="submit" class="button tiny" value="Send" />
+            </div>
+          </div>
+        </td>
+        <td colspan="2">
+          <div class="input-group">
+            <input
+              class="input-group-field"
+              type="text"
+              placeholder="Address2"
+            />
+            <div class="input-group-button">
+              <input type="submit" class="button tiny" value="Send" />
+            </div>
+          </div>
+        </td>
+        <td colspan="2">
+          <div class="input-group">
+            <input
+              class="input-group-field"
+              type="text"
+              placeholder="Address3"
+            />
+            <div class="input-group-button">
+              <input type="submit" class="button tiny" value="Send" />
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
 
     <table>
       <!-- Basic Calendar Layout -->
@@ -168,25 +226,7 @@
         <th>11:00pm</th>
       </tr>
 
-      <tr>
-        <td colspan="5" rowspan="1" class="stage-saturn">
-          <!-- Grid Example using Foundation -->
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <div class="primary callout">
-                <p>Golden Hour API test placement</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <div class="primary callout">
-                <p>Travel API test placement</p>
-              </div>
-            </div>
-          </div>
-        </td>
-      </tr>
+      
     </table>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
